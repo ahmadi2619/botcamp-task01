@@ -1,0 +1,116 @@
+* {
+    text-decoration: none;
+    font-family: IRANSansXFaNum;
+}
+
+a {
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #234894;
+}
+
+p {
+    font-weight: 900px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #1E1E1E;
+
+}
+
+.container {
+    /* max-width: 700px; */
+    justify-content: center;
+}
+.item_number {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #AFCEDD;
+    color: #234894;
+    justify-self: start;
+    margin: 15px;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: ;: 1px;
+}
+.item_link{
+    font-weight: 600px;
+    font-size: 25px;
+    justify-content: start;
+    
+}
+
+.btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #219F95;
+    color: #FFFFFF;
+
+}
+.list .list_card{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.item_date{
+margin: 20px 0px 0px 2px;
+}
+@font-face {
+    font-family: IRANSansXFaNum;
+    src: url(/asseset/font/IRANSansWeb.ttf);
+}
+.item_name{
+    font-weight: bold;
+    
+}
+.card {
+    display: grid;
+    background-color: blanchedalmond;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+}
+
+
+.item_caption {
+    grid-column: 1/4;
+    justify-self: start;
+}
+
+/* ---------------------------------------------------- */
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid black;
+    gap: 10rem;
+    min-width: 300px
+}
+
+
+.list_card {
+    /* border: 1px solid black; */
+    text-align: center;
+    justify-items: center;
+}
+
+/* ----------------------------------------------------- */
+@media screen and (min-width:600px) {
+    .list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 1px solid black;
+        gap: 10rem;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid black;
+        gap: 10rem;
+    }
+
+}
